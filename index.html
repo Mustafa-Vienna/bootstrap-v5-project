@@ -14,49 +14,52 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-dark bg-warning navbar-expand-sm">
-    <a href="#" class="navbar-brand">Whiskey Drop</a>
-
-    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav me-auto">
-        <li class="nav-item me-2"><a href="#" class="nav-link">Home</a></li>
-        <li class="nav-item me-2"><a href="/about" class="nav-link">About</a></li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-            data-bs-toggle="dropdown" aria-expanded="false">Whiskeys</a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a href="#" class="dropdown-item">Irish</a></li>
-            <li><a href="#" class="dropdown-item">Scotch</a></li>
-            <li><a href="#" class="dropdown-item">Japanese</a></li>
-            <li><a href="#" class="dropdown-item">American</a></li>
-          </ul>
-        </li>
-        <li class="nav-item me-2 d-block d-sm-none"><a href="/login" class="nav-link">Sign In / Sign Up</a></li>
-      </ul>
-    </div>
-
-    <div class="d-none d-md-flex align-items-center">
-      <p class="navbar-text my-auto me-2"><i>Great whiskey delivered to your door!</i></p>
-      <a href="/login" class="btn btn-outline-light">Sign In / Sign Up</a>
-    </div>
-  </nav>
-
-
-  <!-- <div class="container alert-container">
-    <div class="row d-none d-sm-block">
-      <div class="col-12">
-        <div class="alert alert-warning">
-          <strong>Sale Now On!</strong> We've got a sale on, Get a 12-month subscription for the price of 6! <a
-            href="">See here for details!</a>
+  <div class="container-fluid navalert-container">
+    <div class="container-fluid alert-container">
+      <div class="row d-none d-sm-block">
+        <div class="col-12">
+          <div class="site-wide-alert alert alert-warning">
+            <strong>Sale Now On!</strong> We've got a sale on, Get a 12-month subscription for the price of 6! <a
+              href="">See here for details!</a>
+          </div>
         </div>
       </div>
     </div>
-  </div> -->
+    <nav class="navbar navbar-dark navbar-expand-sm">
+      <a href="#" class="navbar-brand ms-3">Whiskey Drop</a>
+
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item me-2"><a href="#" class="nav-link">Home</a></li>
+          <li class="nav-item me-2"><a href="/about" class="nav-link">About</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Whiskeys</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a href="#" class="dropdown-item">Irish</a></li>
+              <li><a href="#" class="dropdown-item">Scotch</a></li>
+              <li><a href="#" class="dropdown-item">Japanese</a></li>
+              <li><a href="#" class="dropdown-item">American</a></li>
+            </ul>
+          </li>
+          <li class="nav-item me-2 d-block d-sm-none"><a href="/login" class="nav-link">Sign In / Sign Up</a></li>
+        </ul>
+      </div>
+
+      <div class="d-none d-md-flex align-items-center">
+        <p class="navbar-text my-auto me-2"><i>Great whiskey delivered to your door!</i></p>
+        <a href="/login" class="btn btn--cta btn--red">Sign In / Sign Up</a>
+      </div>
+    </nav>
+  </div>
+
+
+
 
   <!--Callout-->
   <div class="container-fluid callout-container">
@@ -83,81 +86,88 @@
 
 
   <!-- Quotes -->
-  <div class="container quotes-container">
-    <section class="quotes">
-      <div class="row">
-        <div class="col-12 my-5">
-          <h2 class="text-uppercase">Quotes:</h2>
+  <div class="container-wrapper">
+    <div class="container quotes-container content-container">
+      <section class="quotes">
+        <div class="row">
+          <div class="col-12 page-header">
+            <h2 class="text-uppercase">Quotes:</h2>
+            <hr class="block-divider mx-auto block-divider--short">
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-md-6">
-          <div class="media">
-            <div class="d-none d-sm-block">
-              <img src="image/girl-image.png" alt="" class="rounded-circle me-3" height="100" width="100">
-            </div>
-            <div class="media-body">
-              <blockquote class="blockquote">
-                <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
-                <p>- Jane Doe</p>
-              </blockquote>
-            </div>
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="media">
+              <div class="d-none d-sm-block">
+                <img src="image/girl-image.png" alt="" class="rounded-circle me-3" height="100" width="100">
+              </div>
+              <div class="media-body">
+                <blockquote class="blockquote">
+                  <p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
+                  <p>- Jane Doe</p>
+                </blockquote>
+              </div>
 
-          </div>
-        </div>
-        <div class="col-12 col-md-6">
-          <div class="media">
-            <div class="d-none d-sm-block">
-              <img src="image/guy-image.png" alt="" class="rounded-circle me-3" height=100 width=100>
-            </div>
-            <div class="media-body">
-              <blockquote class="blockquote">
-                <p>I haven't been sober for month!</p>
-                <p>- Jane Doe</p>
-              </blockquote>
             </div>
           </div>
+          <div class="col-12 col-md-6">
+            <div class="media">
+              <div class="d-none d-sm-block">
+                <img src="image/guy-image.png" alt="" class="rounded-circle me-3" height=100 width=100>
+              </div>
+              <div class="media-body">
+                <blockquote class="blockquote">
+                  <p>I haven't been sober for month!</p>
+                  <p>- Jane Doe</p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   </div>
   <!-- /. quotes -->
 
   <!-- Features -->
-  <div class="features-container">
-    <section class="features">
-      <div class="row">
-        <div class="col-12 my-5">
-          <h2>Features:</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="feature">
-            <h3><i class="fa-solid fa-gift d-none d-sm-inline"></i> Feature 1 <span class="badge bg-success">NEW!</span>
-            </h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, quibusdam. Quia earum voluptates
-              inventore
-              ex dolor, voluptatum aut quae perferendis.</p>
-            <p><a class="btn btn-sm btn-light" href="#">Read More</a></p>
+  <div class="container-wrapper container-wrapper--red">
+    <div class="container features-container content-container">
+      <section class="features">
+        <div class="row">
+          <div class="col-12 page-header">
+            <h2 class="text-uppercase">Features:</h2>
+            <hr class="block-divider block-divider--short block-divider--white mx-auto">
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="feature">
-            <h3><i class="fa-solid fa-credit-card d-none d-sm-inline"></i> Feature 2</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium possimus atque labore!</p>
-            <p><a class="btn btn-sm btn-light" href="#">Read More</a></p>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="feature">
+              <h3><i class="fa-solid fa-gift d-none d-sm-block"></i> Feature 1 <span
+                  class="badge bg-success">NEW!</span>
+              </h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, quibusdam. Quia earum voluptates
+                inventore
+                ex dolor, voluptatum aut quae perferendis.</p>
+              <p><a class="btn btn-sm btn-light" href="#">Read More</a></p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="feature">
+              <h3><i class="fa-solid fa-credit-card d-none d-sm-block"></i> Feature 2</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium possimus atque labore!</p>
+              <p><a class="btn btn-sm btn-light" href="#">Read More</a></p>
+            </div>
+          </div>
+          <div class="col-12 d-md-none d-lg-block col-lg-4">
+            <div class="feature">
+              <h3><i class="fa-solid fa-circle-xmark d-none d-sm-block"></i> Feature 3</h3>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium possimus atque labore!</p>
+              <p><a class="btn btn-sm btn-light" href="#">Read More</a></p>
+            </div>
           </div>
         </div>
-        <div class="col-12 d-md-none d-lg-block col-lg-4">
-          <div class="feature">
-            <h3><i class="fa-solid fa-circle-xmark d-none d-sm-inline"></i> Feature 3</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium possimus atque labore!</p>
-            <p><a class="btn btn-sm btn-light" href="#">Read More</a></p>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
+    </div>
   </div>
   <!-- /.Features-->
 
